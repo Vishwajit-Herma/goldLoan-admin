@@ -23,3 +23,4 @@ const app1 = initializeApp(firebaseConfig1, 'app1');
 const app2 = initializeApp(firebaseConfig2, 'app2');
 export const auth = getAuth(app1);
 export const firestoredb = getFirestore(app2);
+
