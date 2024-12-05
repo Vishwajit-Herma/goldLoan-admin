@@ -53,11 +53,11 @@ const AdminDashboard = () => {
                 <h1 className='text-3xl md:text-4xl font-bold text-yellow-400'>
                     Admin Dashboard Overview
                 </h1>
-                <div className="relative flex items-center justify-center">
+                <div className="relative flex items-center justify-center cursor-pointer" onClick={viewMessage}>
                     <p className='absolute px-[0.30rem] py-[0.20rem]  text-white text-sm font-semibold rounded-full'>
                             {count.count}
                     </p>
-                    <FaRegMessage className='text-3xl md:text-4xl text-yellow-400 cursor-pointer hover:text-yellow-300' onClick={viewMessage} />
+                    <FaRegMessage className='text-3xl md:text-4xl text-yellow-400 cursor-pointer hover:text-yellow-300'  />
 
                 </div>
             </div>
